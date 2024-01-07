@@ -1,0 +1,1176 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Notes and code snippets">
+      
+      
+        <meta name="author" content="Sean Fuller">
+      
+      
+        <link rel="canonical" href="https://sfuller14.github.io/4reference/snippets/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../webdev_snippets/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Code Snippets - My Snippets & Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+
+      
+    
+<script src="../assets/pymdownx-extras/material-extra-theme-TVq-kNRT.js" type="text/javascript"></script>
+<script src="../assets/pymdownx-extras/material-extra-3rdparty-E-i8w1WA.js" type="text/javascript"></script>
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/pymdownx-extras/extra-fb5a2a1c86.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="dracula" data-md-color-primary="#f8f8f2" data-md-color-accent="#bd93f9">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#code-snippets" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="header.title"
+  >
+    <a
+      href="https://sfuller14.github.io/4reference/"
+      title="My Snippets &amp; Notes"
+      class="md-header__button md-logo"
+      aria-label="My Snippets & Notes"
+    >
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Snippets & Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Code Snippets
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      <div class="md-header-nav__scheme md-header-nav__button md-source__icon md-icon">
+          <a
+            href="javascript:toggleScheme();"
+            title="Light mode"
+            class="light-mode"
+          >
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+          </a>
+          <a
+            href="javascript:toggleScheme();"
+            title="Dark mode"
+            class="dark-mode"
+          >
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+          </a>
+          <a
+            href="javascript:toggleScheme();"
+            title="System preference"
+            class="system-mode"
+          >
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.5 2c-1.79 1.15-3 3.18-3 5.5s1.21 4.35 3.03 5.5C4.46 13 2 10.54 2 7.5A5.5 5.5 0 0 1 7.5 2m11.57 1.5 1.43 1.43L4.93 20.5 3.5 19.07 19.07 3.5m-6.18 2.43L11.41 5 9.97 6l.42-1.7L9 3.24l1.75-.12.58-1.65L12 3.1l1.73.03-1.35 1.13.51 1.67m-3.3 3.61-1.16-.73-1.12.78.34-1.32-1.09-.83 1.36-.09.45-1.29.51 1.27 1.36.03-1.05.87.4 1.31M19 13.5a5.5 5.5 0 0 1-5.5 5.5c-1.22 0-2.35-.4-3.26-1.07l7.69-7.69c.67.91 1.07 2.04 1.07 3.26m-4.4 6.58 2.77-1.15-.24 3.35-2.53-2.2m4.33-2.7 1.15-2.77 2.2 2.54-3.35.23m1.15-4.96-1.14-2.78 3.34.24-2.2 2.54M9.63 18.93l2.77 1.15-2.53 2.19-.24-3.34Z"/></svg>
+          </a>
+           <a
+            href="javascript:toggleScheme();"
+            title="Unknown scheme"
+            class="unknown-mode"
+          >
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10Z"/></svg>
+          </a>
+      </div>
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Code Snippets
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../webdev_snippets/" class="md-tabs__link">
+        
+  
+    
+  
+  Web Development Notes
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Snippets &amp; Notes" class="md-nav__button md-logo" aria-label="My Snippets & Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My Snippets & Notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Code Snippets
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Code Snippets
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    <span class="md-ellipsis">
+      GIT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      SHELL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      PYTHON
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rarely-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      RARELY USED
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../webdev_snippets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Web Development Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+<h1 id="code-snippets">Code Snippets</h1>
+<details class="note">
+<summary>Code Snippets - Contents</summary>
+<ul>
+<li><a href="./#git">GIT</a><ul>
+<li><a href="./#commands">Commands</a></li>
+<li><a href="./#ghh-cli">ghh CLI</a></li>
+</ul>
+</li>
+<li><a href="./#shell">SHELL</a><ul>
+<li><a href="./#shortcuts-zsh">Shortcuts (zsh)</a></li>
+<li><a href="./#core-commands">Core Commands</a></li>
+<li><a href="./#chaining-commands">Chaining Commands</a></li>
+<li><a href="./#explanation-of-grep">Explanation of <code>grep</code></a></li>
+<li><a href="./#piping-commands">Piping Commands</a></li>
+<li><a href="./#help">Help</a></li>
+</ul>
+</li>
+<li><a href="./#python">PYTHON</a><ul>
+<li><a href="./#openai-api">OpenAI API</a></li>
+<li><a href="./#token-counts">Token Counts</a></li>
+<li><a href="./#numpy">numpy</a></li>
+<li><a href="./#reshaping">Reshaping</a></li>
+<li><a href="./#broadcasting">Broadcasting</a></li>
+</ul>
+</li>
+<li><a href="./#rarely-used">RARELY USED</a><ul>
+<li><a href="./#tmux">tmux</a></li>
+<li><a href="./#pane-management">Pane Management</a></li>
+<li><a href="./#window-management">Window Management</a></li>
+<li><a href="./#session-management">Session Management</a></li>
+<li><a href="./#resizing-panes">Resizing Panes</a></li>
+<li><a href="./#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>
+</details>
+<hr />
+<h2 id="git">GIT</h2>
+<h3 id="commands">Commands</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>git remote add origin git@github.com:USERNAME/REPO_NAME.git</code></td>
+<td style="text-align: left;">Add remote origin (when not set)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git remote set-url origin git@github.com:USERNAME/REPO_NAME.git</code></td>
+<td style="text-align: left;">Set remote origin (overwrite existing)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git rm --cached FILE_OR_DIR_NAME</code><br><code>git commit -m "Removed FILE_OR_DIR_NAME from repository"</code><br><code>git push origin master</code></td>
+<td style="text-align: left;">Remove local already-pushed file from remote.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git config --get remote.origin.url</code></td>
+<td style="text-align: left;">Get git remote origin's URL.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git diff --cached origin/main</code></td>
+<td style="text-align: left;">Compare committed (pre-push) local changes to remote (all contents).<br>This opens the <code>less</code> editor.<br><code>n</code>: Next change<br><code>N</code>: Previous change<br><code>spacebar</code>: Pagedown<br><code>b</code>: Pageup<br><code>q</code>: Quit<br><code>?</code>: Help</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git diff --cached origin/main --name-only</code></td>
+<td style="text-align: left;">Compare committed (pre-push) local changes to remote (filenames only).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git reset --hard --force</code></td>
+<td style="text-align: left;">Force-update local repo state to match remote branch (<strong>overwrites</strong> -- stash).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git reset --soft HEAD~1</code></td>
+<td style="text-align: left;">Undo most recent <em>local</em> commit (to staging).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git reset --mixed HEAD~1</code></td>
+<td style="text-align: left;">Undo most recent <em>local</em> commit (to unstaged).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git rm file_to_delete</code><br><code>git commit -m "removed file_to_delete"</code><br><code>git push origin master</code></td>
+<td style="text-align: left;">Delete file from remote and local.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git rm -r folder_to_delete</code><br><code>git commit -m "removed folder_to_delete"</code><br><code>git push origin master</code></td>
+<td style="text-align: left;">Delete folder from remote and local.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git rm --cached file_to_delete</code><br><code>git commit -m "removed file_to_delete"</code><br><code>git push origin master</code></td>
+<td style="text-align: left;">Delete file from remote only.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git fetch origin</code><br><code>git ls-tree -r master --name-only</code></td>
+<td style="text-align: left;">List all files on remote master.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git commit -am "commit message"</code></td>
+<td style="text-align: left;">Add and commit all changes.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git clean -f</code></td>
+<td style="text-align: left;">Force-remove untracked files.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git clean -fd</code></td>
+<td style="text-align: left;">Force-remove untracked directories.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>cd subdirectory</code><br><code>sudo rm -rf .git</code></td>
+<td style="text-align: left;">Force-remove subdirectory's sub-git repo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>git branch new-branch</code><br><code>git checkout new-branch</code><br>[make changes]<br><code>git add -A</code><br><code>git commit -m "commit message"</code><br><code>git push origin new-branch</code><br><code>git branch -d new-branch</code></td>
+<td style="text-align: left;">Create new branch, make changes, push, and delete branch locally.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ghh-cli">ghh CLI</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>gh repo create ___ --private</code></td>
+<td style="text-align: left;">Create new repo (private).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo clone ___</code></td>
+<td style="text-align: left;">Clone repo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo view --web</code></td>
+<td style="text-align: left;">Open repo in browser.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo delete ___</code></td>
+<td style="text-align: left;">Delete repo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo list</code></td>
+<td style="text-align: left;">List all repos.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo rename old-name new-name</code></td>
+<td style="text-align: left;">Rename repo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo transfer ___ new-owner</code></td>
+<td style="text-align: left;">Transfer repo to new owner.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo fork ___</code></td>
+<td style="text-align: left;">Fork repo.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo fork --clone ___</code></td>
+<td style="text-align: left;">Fork repo and clone locally.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo fork --clone ___ --remote</code></td>
+<td style="text-align: left;">Fork repo and clone locally with remote origin.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>gh repo fork --clone ___ --remote --remote-name=upstream</code></td>
+<td style="text-align: left;">Fork repo and clone locally with remote origin and upstream.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="shell">SHELL</h2>
+<h3 id="shortcuts-zsh">Shortcuts (zsh)</h3>
+<table>
+<thead>
+<tr>
+<th>Key/Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Ctrl + A</code></td>
+<td>Go to the beginning of the line you are currently typing on. This also works for most text input fields system wide.</td>
+</tr>
+<tr>
+<td><code>Ctrl + E</code></td>
+<td>Go to the end of the line you are currently typing on. This also works for most text input fields system wide.</td>
+</tr>
+<tr>
+<td><code>Ctrl + L</code></td>
+<td>Clears the Screen</td>
+</tr>
+<tr>
+<td><code>Cmd + K</code></td>
+<td>Clears the Screen</td>
+</tr>
+<tr>
+<td><code>Ctrl + U</code></td>
+<td>Cut everything backwards to beginning of line</td>
+</tr>
+<tr>
+<td><code>Ctrl + K</code></td>
+<td>Cut everything forward to end of line</td>
+</tr>
+<tr>
+<td><code>Ctrl + W</code></td>
+<td>Cut one word backwards using white space as delimiter</td>
+</tr>
+<tr>
+<td><code>Ctrl + Y</code></td>
+<td>Paste whatever was cut by the last cut command</td>
+</tr>
+<tr>
+<td><code>Ctrl + H</code></td>
+<td>Same as backspace</td>
+</tr>
+<tr>
+<td><code>Ctrl + C</code></td>
+<td>Kill whatever you are running. Also clears everything on current line</td>
+</tr>
+<tr>
+<td><code>Ctrl + D</code></td>
+<td>Exit the current shell when no process is running, or send EOF to a the running process</td>
+</tr>
+<tr>
+<td><code>Ctrl + Z</code></td>
+<td>Puts whatever you are running into a suspended background process. fg restores it</td>
+</tr>
+<tr>
+<td><code>Ctrl + T</code></td>
+<td>Swap the last two characters before the cursor</td>
+</tr>
+<tr>
+<td><code>Ctrl + _</code></td>
+<td>Undo the last command.</td>
+</tr>
+<tr>
+<td><code>Ctrl + F</code></td>
+<td>Move cursor one character forward</td>
+</tr>
+<tr>
+<td><code>Ctrl + B</code></td>
+<td>Move cursor one character backward</td>
+</tr>
+<tr>
+<td><code>Option + →</code></td>
+<td>Move cursor one word forward</td>
+</tr>
+<tr>
+<td><code>Option + ←</code></td>
+<td>Move cursor one word backward</td>
+</tr>
+<tr>
+<td><code>Esc + T</code></td>
+<td>Move cursor one word backward</td>
+</tr>
+<tr>
+<td><code>Esc + Backspace</code></td>
+<td>Swap the last two words before the cursor</td>
+</tr>
+<tr>
+<td><code>Tab</code></td>
+<td>Cut one word backwards using none alphabetic characters as delimiters</td>
+</tr>
+</tbody>
+</table>
+<h3 id="core-commands">Core Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>cd [folder]</code></td>
+<td>Change directory e.g. cd Documents</td>
+</tr>
+<tr>
+<td><code>cd</code></td>
+<td>Home directory</td>
+</tr>
+<tr>
+<td><code>cd /</code></td>
+<td>Root of drive</td>
+</tr>
+<tr>
+<td><code>cd -</code></td>
+<td>Previous directory</td>
+</tr>
+<tr>
+<td><code>ls</code></td>
+<td>Short listing</td>
+</tr>
+<tr>
+<td><code>ls -l</code></td>
+<td>Long listing</td>
+</tr>
+<tr>
+<td><code>ls -a</code></td>
+<td>Listing including hidden files</td>
+</tr>
+<tr>
+<td><code>ls -lh</code></td>
+<td>Long listing with human-readable file sizes</td>
+</tr>
+<tr>
+<td><code>ls -R</code></td>
+<td>Entire content of folder recursively</td>
+</tr>
+<tr>
+<td><code>sudo [command]</code></td>
+<td>Run command with the security privileges of the superuser (Super User DO)</td>
+</tr>
+<tr>
+<td><code>open [file]</code></td>
+<td>Opens a file (as if you double-clicked it)</td>
+</tr>
+<tr>
+<td><code>top</code></td>
+<td>Displays active processes. Press q to quit</td>
+</tr>
+<tr>
+<td><code>nano [file]</code></td>
+<td>Opens the file using the nano editor</td>
+</tr>
+<tr>
+<td><code>vim [file]</code></td>
+<td>Opens the file using the vim editor</td>
+</tr>
+<tr>
+<td><code>clear</code></td>
+<td>Clears the screen</td>
+</tr>
+<tr>
+<td><code>reset</code></td>
+<td>Resets the terminal display</td>
+</tr>
+<tr>
+<td><code>unzip path/to/your/file.zip</code></td>
+<td>General unzip</td>
+</tr>
+<tr>
+<td><code>unzip path/to/your/file.zip -d path/to/destination/folder</code></td>
+<td>Unzip to specific path</td>
+</tr>
+<tr>
+<td><code>zip -r compressed_filename.zip foldername</code></td>
+<td>General zip</td>
+</tr>
+</tbody>
+</table>
+<h3 id="chaining-commands">Chaining Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[command-a]; [command-b]</td>
+<td>Run command A and then B, regardless of the success of A</td>
+</tr>
+<tr>
+<td>[command-a] &amp;&amp; [command-b]</td>
+<td>Run command B if A succeeded</td>
+</tr>
+<tr>
+<td>[command-a] || [command-b]</td>
+<td>Run command B if A failed</td>
+</tr>
+<tr>
+<td>[command-a] &amp;</td>
+<td>Run command A in the background</td>
+</tr>
+</tbody>
+</table>
+<h3 id="explanation-of-grep">Explanation of <code>grep</code></h3>
+<ul>
+<li><code>grep</code> is a command-line utility for searching plain-text data sets for lines that match a regular expression.</li>
+<li><code>grep</code> searches the named input FILEs (or standard input if no files are named, or the file name - is given) for lines containing a match to the given PATTERN.</li>
+<li>By default, <code>grep</code> prints the matching lines.</li>
+<li><code>egrep</code> or <code>grep -E</code> is the same as <code>grep</code>, but uses extended regular expressions instead of basic regular expressions.</li>
+<li>Example: <code>egrep 'foo|bar'</code> is the same as <code>grep -E 'foo|bar'</code></li>
+<li><code>fgrep</code> or <code>grep -F</code> is the same as <code>grep</code>, but interprets PATTERN as a list of fixed strings (instead of regular expressions), separated by newlines, any of which is to be matched.</li>
+<li>This is different from normal <code>grep</code> which interprets PATTERN as a regular expression.</li>
+<li>Example: <code>fgrep 'foo'</code> is the same as <code>grep -F 'foo'</code></li>
+<li>Example: <code>fgrep -f file1 file2</code> is the same as <code>grep -F -f file1 file2</code></li>
+<li>To obtain the opposite effect of <code>grep</code>, use the <code>-v</code> or <code>--invert-match</code> option.</li>
+<li>Example: <code>grep -v 'foo'</code> will match all lines that do not contain the string 'foo'</li>
+<li>Output grep results to a file using the <code>&gt;</code> operator.</li>
+<li>Example: <code>grep 'foo' file.txt &gt; output.txt</code></li>
+</ul>
+<h3 id="piping-commands">Piping Commands</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>find [dir] -name [search_pattern]</td>
+<td>Search for files, e.g., find /Users -name "file.txt"</td>
+</tr>
+<tr>
+<td>grep [search_pattern] [file]</td>
+<td>Search for all lines that contain the pattern, e.g., grep "Tom" file.txt</td>
+</tr>
+<tr>
+<td>grep -r [search_pattern] [dir]</td>
+<td>Recursively search in all files in the specified directory for all lines that contain the pattern</td>
+</tr>
+<tr>
+<td>grep -v [search_pattern] [file]</td>
+<td>Search for all lines that do NOT contain the pattern</td>
+</tr>
+<tr>
+<td>grep -i [search_pattern] [file]</td>
+<td>Search for all lines that contain the case-insensitive pattern</td>
+</tr>
+<tr>
+<td>mdfind [search_pattern]</td>
+<td>Spotlight search for files (names, content, other metadata), e.g., mdfind skateboard</td>
+</tr>
+<tr>
+<td>mdfind -onlyin [dir] -name [pattern]</td>
+<td>Spotlight search for files named like pattern in the given directory</td>
+</tr>
+</tbody>
+</table>
+<h3 id="help">Help</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[command] -h</td>
+<td>Offers help</td>
+</tr>
+<tr>
+<td>[command] -help</td>
+<td>Offers help</td>
+</tr>
+<tr>
+<td>info [command]</td>
+<td>Offers help</td>
+</tr>
+<tr>
+<td>man [command]</td>
+<td>Show the help manual for [command]</td>
+</tr>
+<tr>
+<td>whatis [command]</td>
+<td>Gives a one-line description of [command]</td>
+</tr>
+<tr>
+<td>apropos [search-pattern]</td>
+<td>Searches for command with keywords in description</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="python">PYTHON</h2>
+<h3 id="openai-api">OpenAI API</h3>
+<h4 id="token-counts">Token Counts</h4>
+<ul>
+<li>Context window equivalents:</li>
+<li>1 token --&gt; 4 characters</li>
+<li>128,000 tokens --&gt; 512,000 characters</li>
+<li>Natural Language:<ul>
+<li>6 characters per English word on average (5 char + 1 space)</li>
+<li>512,000 characters / 6 characters per word ≈ 85,333 words</li>
+<li>85,333 words / 250 words per page using 12pt Times New Roman ≈ 341 double-spaced pages (170 single-spaced pages)</li>
+<li><strong>So 128,000 tokens is roughly equivalent to 170 single-spaced pages of text</strong></li>
+</ul>
+</li>
+<li>Code:<ul>
+<li>50 characters per line on average</li>
+<li>512,000 characters / 50 characters per line ≈ 10,240 lines of code</li>
+<li><strong>So 128,000 tokens is roughly equivalent to 10,240 lines of code</strong></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="numpy">numpy</h3>
+<h4 id="reshaping">Reshaping</h4>
+<ul>
+<li>The reshape() function takes a single tuple argument that specifies the new shape of the array</li>
+<li>Used frequently to <em>add</em> a dimension of when for libs like sklearn and keras (to the END of the shape tuple -- i.e. <strong>right-padding with 1s</strong>)</li>
+<li>In the case of reshaping 1-D <code>(m,)</code> --&gt; 2-D <code>(m,1)</code>:</li>
+<li>Tuple would be the shape of the array as the first dimension (data.shape[0]) and 1 for the second dimension:<ul>
+<li><code>data.shape == (m_old, )</code> (e.g. <code>(1000,)</code>)</li>
+<li><code>data = data.reshape( (m_old, n_new)  )</code></li>
+<li><code>data.shape == (m_old, n_new)</code> (e.g. <code>(1000, 1)</code>)</li>
+</ul>
+</li>
+</ul>
+<h4 id="broadcasting">Broadcasting</h4>
+<p>In formal LinAlg, arithmetic can only be performed when:  </p>
+<ul>
+<li>the shape of each dimension in the arrays are equal (even for dotproduct - though not matmul)</li>
+</ul>
+<p>However, in ML, we often want to add <strong>A</strong> <code>(m,n)</code> to <strong>v</strong> <code>(,n)</code>.<br />
+NumPy enables this by <em>broadcasting</em> the vector to the shape of the matrix.<br />
+Specifically np (<strong>which considers vectors as (n,) since it is row-oriented</strong>) effectively:</p>
+<ol>
+<li><strong>Left-pads with 1s</strong> the dimensions of the smaller array</li>
+<li><strong>Right-to-left compares</strong> the dimensions of the two arrays and ensures either
+  a. The dimensions are equal <strong>OR</strong>
+  b. At least one of the dimensions is 1</li>
+<li>If all dimensions pass, np <strong>replicates</strong> (<em>broadcast</em>) the smaller array along the dim(s) where it is 1 to match the shape of the larger array.</li>
+</ol>
+<p><strong>NOTE</strong>: Broadcasting is not a copy operation. It is a view of the original array with the same data. This means that if you modify a broadcasted array, it modifies the original array.  </p>
+<p>So for example:  </p>
+<ul>
+<li>1-D vs. 2-D</li>
+<li>LOOKS like comparing:  <ul>
+<li>A.shape -- (2,3)  </li>
+<li>b.shape -- (3,)  </li>
+</ul>
+</li>
+<li>ACTUALLY np is comparing:  <ul>
+<li>A.shape -- (2,3)  </li>
+<li>b.shape -- (1,3)  </li>
+</ul>
+</li>
+<li>2-D vs. scalar  </li>
+<li>LOOKS like comparing:  <ul>
+<li>A.shape -- (2,3)  </li>
+<li>b.shape -- (1,)  </li>
+</ul>
+</li>
+<li>ACTUALLY np is comparing:  <ul>
+<li>A.shape -- (2,3)  </li>
+<li>b.shape -- (1,1)</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="rarely-used">RARELY USED</h2>
+<h3 id="tmux">tmux</h3>
+<h4 id="pane-management">Pane Management</h4>
+<ul>
+<li>Split Pane Horizontally: <code>Ctrl + b, then "</code></li>
+<li>Split Pane Vertically: <code>Ctrl + b, then %</code></li>
+<li>Switch to x Pane: <code>Ctrl + b, then x-arrow</code></li>
+<li>Close Current Pane: <code>Ctrl + b, then x (then press y to confirm)</code></li>
+<li>(Switch to Next Pane: <code>Ctrl + b, then o)</code></li>
+</ul>
+<h4 id="window-management">Window Management</h4>
+<ul>
+<li>Create New Window: <code>Ctrl + b, then c</code></li>
+<li>Switch to Next Window: <code>Ctrl + b, then n</code></li>
+<li>Switch to Previous Window: <code>Ctrl + b, then p</code></li>
+<li>List Windows: <code>Ctrl + b, then w</code></li>
+<li>Rename Current Window: <code>Ctrl + b, then ,</code></li>
+</ul>
+<h4 id="session-management">Session Management</h4>
+<ul>
+<li>Detach from Session: <code>Ctrl + b, then d</code></li>
+<li>List Sessions: <code>tmux ls (outside of tmux)</code></li>
+<li>Attach to a Session: <code>tmux attach-session -t [session-name]</code></li>
+</ul>
+<h4 id="resizing-panes">Resizing Panes</h4>
+<ul>
+<li>Resize Pane Up: <code>Ctrl + b:resize-pane -U 10</code></li>
+<li>Resize Pane Down: <code>Ctrl + b:resize-pane -D 10</code></li>
+<li>Resize Pane Left: <code>Ctrl + b:resize-pane -L 10</code></li>
+<li>Resize Pane Right: <code>Ctrl + b:resize-pane -R 10</code></li>
+</ul>
+<h4 id="miscellaneous">Miscellaneous</h4>
+<ul>
+<li>Scroll Mode: <code>Ctrl + b, then [ (use arrow keys to scroll, q to exit scroll mode)</code></li>
+<li>Copy Mode: <code>Ctrl + b, then [ (enter copy mode for text selection)</code></li>
+<li>Paste from Buffer: <code>Ctrl + b, then ]</code></li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+  
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        
+
+<footer class="md-footer">
+  
+    <nav
+      class="md-footer__inner md-grid"
+      aria-label="footer.title"
+    >
+      
+        <a
+          href=".."
+          class="md-footer__link md-footer__link--prev"
+          rel="prev"
+        >
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Home
+            </div>
+          </div>
+        </a>
+      
+      
+        <a
+          href="../webdev_snippets/"
+          class="md-footer__link md-footer__link--next"
+          rel="next"
+        >
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Web Development Notes
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        with emoji by
+        <a href="https://github.com/twitter/twemoji" target="_blank" rel="noopener">
+          Twemoji
+        </a>
+      </div>
+      <div class="md-social">
+  
+</div>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "header.autohide", "navigation.expand", "navigation.footer", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.integrate"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../assets/pymdownx-extras/extra-loader-MCFnu0Wd.js"></script>
+      
+    
+  </body>
+</html>

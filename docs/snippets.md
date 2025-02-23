@@ -2,6 +2,8 @@
 
 ??? note "Code Snippets - Contents"
     - [Code Snippets](#code-snippets)
+      - [VSCode MacOS](#VSCode-macos)
+        - [Commands](#commands)
       - [GIT](#git)
         - [Commands](#commands)
         - [less editor](#less-editor)
@@ -47,6 +49,16 @@
         - [Session Management](#session-management)
         - [Resizing Panes](#resizing-panes)
         - [Miscellaneous](#miscellaneous)
+
+---
+
+## VSCode MacOS
+
+### Commands
+
+| Description | Command | 
+| :------ | :----------- |
+| Copilot Chat | `Shift + Cmd + C` |
 
 ---
 
